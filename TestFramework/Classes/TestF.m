@@ -6,10 +6,11 @@
 //
 
 #import "TestF.h"
-#import <ZCTestII/ZCTestPrint.h>
+#import "ZCTestPrint.h"
 
 @implementation TestF
 - (void)testTodo {
-//    ZCTestPrint *zc = [[ZCTestPrint alloc] init];
+    ZCTestPrint *zc = [[ZCTestPrint alloc] init];
+    [zc hello:@"haha"];
 }
 @end
